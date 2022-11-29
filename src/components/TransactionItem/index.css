@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.history-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.details {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 12px;
+  width: 30%;
+}
+.delete-container {
+  display: flex;
+  flex-direction: row;
+}
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.delete-img {
+  width: 20px;
+}

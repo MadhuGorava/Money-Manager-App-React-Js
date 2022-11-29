@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.moneyDetails-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 85px;
+  padding: 15px;
+  width: 300px;
+  border-radius: 10px;
+}
+.balance-container {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+.income-container {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+.expenses-container {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+.image {
+  width: 80px;
+  padding-right: 10px;
+}
+.balance {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: black;
+}
